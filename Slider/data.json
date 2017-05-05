@@ -1,0 +1,32 @@
+{
+    "code":200,
+    "menu_categorys":[
+    {
+        "id" :0,
+        "show_name":"全部信息",
+        "type":"category"
+    },
+    {
+        "id" :1,
+        "show_name":"应急知识",
+        "type":"category"
+    },  {
+        "id" :2,
+        "show_name":"标准细则",
+        "type":"category"
+    },  {
+        "id" :3,
+        "show_name":"应急装备",
+        "type":"category"
+    },  {
+        "id" :4,
+        "show_name":"救援技术",
+        "type":"category"
+    },  {
+        "id" :5,
+        "show_name":"科研文章",
+        "type":"category"
+    }
+    
+        ]
+}

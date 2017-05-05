@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		0057D3171EBB3EBE00B50122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057D3161EBB3EBE00B50122 /* main.m */; };
 		0057D31A1EBB3EBE00B50122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057D3191EBB3EBE00B50122 /* AppDelegate.m */; };
-		0057D31D1EBB3EBE00B50122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057D31C1EBB3EBE00B50122 /* ViewController.m */; };
 		0057D3201EBB3EBE00B50122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0057D31E1EBB3EBE00B50122 /* Main.storyboard */; };
 		0057D3221EBB3EBE00B50122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057D3211EBB3EBE00B50122 /* Assets.xcassets */; };
 		0057D3251EBB3EBE00B50122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0057D3231EBB3EBE00B50122 /* LaunchScreen.storyboard */; };
 		0057D3301EBB3EBF00B50122 /* SliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057D32F1EBB3EBF00B50122 /* SliderTests.m */; };
 		0057D33B1EBB3EBF00B50122 /* SliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057D33A1EBB3EBF00B50122 /* SliderUITests.m */; };
+		00D9B2701EBC1ADF00E43505 /* SPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B26F1EBC1ADF00E43505 /* SPMainViewController.m */; };
+		00D9B27B1EBC1B0F00E43505 /* SPSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2751EBC1B0F00E43505 /* SPSliderViewController.m */; };
+		00D9B27C1EBC1B0F00E43505 /* SPSlideSegmentBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2771EBC1B0F00E43505 /* SPSlideSegmentBarItem.m */; };
+		00D9B2821EBC1BB600E43505 /* UIColor+SPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2811EBC1BB600E43505 /* UIColor+SPAddition.m */; };
+		00D9B2871EBC1BE700E43505 /* NSString+SPGetSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2841EBC1BE700E43505 /* NSString+SPGetSize.m */; };
+		00D9B2881EBC1BE700E43505 /* UIView+SPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2861EBC1BE700E43505 /* UIView+SPAddition.m */; };
+		00D9B28C1EBC1CA600E43505 /* SPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B28B1EBC1CA600E43505 /* SPModel.m */; };
+		00D9B28F1EBC1CE300E43505 /* SPMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B28E1EBC1CE300E43505 /* SPMainModel.m */; };
+		00D9B2961EBC1DA800E43505 /* SPMainDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2951EBC1DA800E43505 /* SPMainDetailViewController.m */; };
+		00D9B2991EBC1E9700E43505 /* SPMainDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B2981EBC1E9700E43505 /* SPMainDetailModel.m */; };
+		00D9B29C1EBC1EA500E43505 /* SPMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B29B1EBC1EA500E43505 /* SPMainTableViewCell.m */; };
+		00D9B2A01EBC1F6500E43505 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 00D9B29D1EBC1F6500E43505 /* data.json */; };
+		00D9B2A11EBC1F6500E43505 /* SPHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D9B29F1EBC1F6500E43505 /* SPHttpManager.m */; };
+		3AE95D1EA2D4FB2E799C244A /* libPods-Slider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A39A1159065FBE316386C21F /* libPods-Slider.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		0057D3161EBB3EBE00B50122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0057D3181EBB3EBE00B50122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0057D3191EBB3EBE00B50122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0057D31B1EBB3EBE00B50122 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0057D31C1EBB3EBE00B50122 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0057D31F1EBB3EBE00B50122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0057D3211EBB3EBE00B50122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0057D3241EBB3EBE00B50122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,35 @@
 		0057D3361EBB3EBF00B50122 /* SliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0057D33A1EBB3EBF00B50122 /* SliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderUITests.m; sourceTree = "<group>"; };
 		0057D33C1EBB3EBF00B50122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D9B26E1EBC1ADF00E43505 /* SPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainViewController.h; sourceTree = "<group>"; };
+		00D9B26F1EBC1ADF00E43505 /* SPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainViewController.m; sourceTree = "<group>"; };
+		00D9B2741EBC1B0F00E43505 /* SPSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSliderViewController.h; sourceTree = "<group>"; };
+		00D9B2751EBC1B0F00E43505 /* SPSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSliderViewController.m; sourceTree = "<group>"; };
+		00D9B2761EBC1B0F00E43505 /* SPSlideSegmentBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSlideSegmentBarItem.h; sourceTree = "<group>"; };
+		00D9B2771EBC1B0F00E43505 /* SPSlideSegmentBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSlideSegmentBarItem.m; sourceTree = "<group>"; };
+		00D9B27E1EBC1B3F00E43505 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		00D9B2801EBC1BB600E43505 /* UIColor+SPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SPAddition.h"; sourceTree = "<group>"; };
+		00D9B2811EBC1BB600E43505 /* UIColor+SPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SPAddition.m"; sourceTree = "<group>"; };
+		00D9B2831EBC1BE700E43505 /* NSString+SPGetSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SPGetSize.h"; sourceTree = "<group>"; };
+		00D9B2841EBC1BE700E43505 /* NSString+SPGetSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SPGetSize.m"; sourceTree = "<group>"; };
+		00D9B2851EBC1BE700E43505 /* UIView+SPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SPAddition.h"; sourceTree = "<group>"; };
+		00D9B2861EBC1BE700E43505 /* UIView+SPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SPAddition.m"; sourceTree = "<group>"; };
+		00D9B28A1EBC1CA600E43505 /* SPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPModel.h; sourceTree = "<group>"; };
+		00D9B28B1EBC1CA600E43505 /* SPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPModel.m; sourceTree = "<group>"; };
+		00D9B28D1EBC1CE300E43505 /* SPMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainModel.h; sourceTree = "<group>"; };
+		00D9B28E1EBC1CE300E43505 /* SPMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainModel.m; sourceTree = "<group>"; };
+		00D9B2941EBC1DA800E43505 /* SPMainDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainDetailViewController.h; sourceTree = "<group>"; };
+		00D9B2951EBC1DA800E43505 /* SPMainDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainDetailViewController.m; sourceTree = "<group>"; };
+		00D9B2971EBC1E9700E43505 /* SPMainDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainDetailModel.h; sourceTree = "<group>"; };
+		00D9B2981EBC1E9700E43505 /* SPMainDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainDetailModel.m; sourceTree = "<group>"; };
+		00D9B29A1EBC1EA500E43505 /* SPMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMainTableViewCell.h; sourceTree = "<group>"; };
+		00D9B29B1EBC1EA500E43505 /* SPMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMainTableViewCell.m; sourceTree = "<group>"; };
+		00D9B29D1EBC1F6500E43505 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		00D9B29E1EBC1F6500E43505 /* SPHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHttpManager.h; sourceTree = "<group>"; };
+		00D9B29F1EBC1F6500E43505 /* SPHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHttpManager.m; sourceTree = "<group>"; };
+		8C155716E8E5DEE26048D98D /* Pods-Slider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slider.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slider/Pods-Slider.release.xcconfig"; sourceTree = "<group>"; };
+		A39A1159065FBE316386C21F /* libPods-Slider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Slider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3985E8D5BB7115F0E55975 /* Pods-Slider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slider/Pods-Slider.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE95D1EA2D4FB2E799C244A /* libPods-Slider.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +126,8 @@
 				0057D32E1EBB3EBF00B50122 /* SliderTests */,
 				0057D3391EBB3EBF00B50122 /* SliderUITests */,
 				0057D3131EBB3EBE00B50122 /* Products */,
+				1F8907BFE169C764282616C2 /* Pods */,
+				918CF68978B5D0FA6FDE7BFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +146,17 @@
 			children = (
 				0057D3181EBB3EBE00B50122 /* AppDelegate.h */,
 				0057D3191EBB3EBE00B50122 /* AppDelegate.m */,
-				0057D31B1EBB3EBE00B50122 /* ViewController.h */,
-				0057D31C1EBB3EBE00B50122 /* ViewController.m */,
+				00D9B26E1EBC1ADF00E43505 /* SPMainViewController.h */,
+				00D9B26F1EBC1ADF00E43505 /* SPMainViewController.m */,
+				00D9B28D1EBC1CE300E43505 /* SPMainModel.h */,
+				00D9B28E1EBC1CE300E43505 /* SPMainModel.m */,
+				00D9B29D1EBC1F6500E43505 /* data.json */,
+				00D9B29E1EBC1F6500E43505 /* SPHttpManager.h */,
+				00D9B29F1EBC1F6500E43505 /* SPHttpManager.m */,
+				00D9B2901EBC1D9300E43505 /* Detail */,
+				00D9B2891EBC1C8400E43505 /* SPModel */,
+				00D9B27F1EBC1B8900E43505 /* SPAdditation */,
+				00D9B2711EBC1B0F00E43505 /* SPSliderController */,
 				0057D3151EBB3EBE00B50122 /* Supporting Files */,
 			);
 			path = Slider;
@@ -118,6 +170,7 @@
 				0057D3231EBB3EBE00B50122 /* LaunchScreen.storyboard */,
 				0057D3261EBB3EBE00B50122 /* Info.plist */,
 				0057D3161EBB3EBE00B50122 /* main.m */,
+				00D9B27E1EBC1B3F00E43505 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +193,93 @@
 			path = SliderUITests;
 			sourceTree = "<group>";
 		};
+		00D9B2711EBC1B0F00E43505 /* SPSliderController */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B2741EBC1B0F00E43505 /* SPSliderViewController.h */,
+				00D9B2751EBC1B0F00E43505 /* SPSliderViewController.m */,
+				00D9B2761EBC1B0F00E43505 /* SPSlideSegmentBarItem.h */,
+				00D9B2771EBC1B0F00E43505 /* SPSlideSegmentBarItem.m */,
+			);
+			path = SPSliderController;
+			sourceTree = "<group>";
+		};
+		00D9B27F1EBC1B8900E43505 /* SPAdditation */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B2801EBC1BB600E43505 /* UIColor+SPAddition.h */,
+				00D9B2811EBC1BB600E43505 /* UIColor+SPAddition.m */,
+				00D9B2831EBC1BE700E43505 /* NSString+SPGetSize.h */,
+				00D9B2841EBC1BE700E43505 /* NSString+SPGetSize.m */,
+				00D9B2851EBC1BE700E43505 /* UIView+SPAddition.h */,
+				00D9B2861EBC1BE700E43505 /* UIView+SPAddition.m */,
+			);
+			path = SPAdditation;
+			sourceTree = "<group>";
+		};
+		00D9B2891EBC1C8400E43505 /* SPModel */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B28A1EBC1CA600E43505 /* SPModel.h */,
+				00D9B28B1EBC1CA600E43505 /* SPModel.m */,
+			);
+			path = SPModel;
+			sourceTree = "<group>";
+		};
+		00D9B2901EBC1D9300E43505 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B2911EBC1D9300E43505 /* Controller */,
+				00D9B2921EBC1D9300E43505 /* Model */,
+				00D9B2931EBC1D9300E43505 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		00D9B2911EBC1D9300E43505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B2941EBC1DA800E43505 /* SPMainDetailViewController.h */,
+				00D9B2951EBC1DA800E43505 /* SPMainDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00D9B2921EBC1D9300E43505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B2971EBC1E9700E43505 /* SPMainDetailModel.h */,
+				00D9B2981EBC1E9700E43505 /* SPMainDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00D9B2931EBC1D9300E43505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B29A1EBC1EA500E43505 /* SPMainTableViewCell.h */,
+				00D9B29B1EBC1EA500E43505 /* SPMainTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F8907BFE169C764282616C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA3985E8D5BB7115F0E55975 /* Pods-Slider.debug.xcconfig */,
+				8C155716E8E5DEE26048D98D /* Pods-Slider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		918CF68978B5D0FA6FDE7BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39A1159065FBE316386C21F /* libPods-Slider.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0057D33F1EBB3EBF00B50122 /* Build configuration list for PBXNativeTarget "Slider" */;
 			buildPhases = (
+				03A54702879BF77BDC92D5CA /* [CP] Check Pods Manifest.lock */,
 				0057D30E1EBB3EBE00B50122 /* Sources */,
 				0057D30F1EBB3EBE00B50122 /* Frameworks */,
 				0057D3101EBB3EBE00B50122 /* Resources */,
+				4F89E2DEDAF6D065C0DFD9A6 /* [CP] Embed Pods Frameworks */,
+				2224B6E2448E9434268D1CA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +395,7 @@
 				0057D3251EBB3EBE00B50122 /* LaunchScreen.storyboard in Resources */,
 				0057D3221EBB3EBE00B50122 /* Assets.xcassets in Resources */,
 				0057D3201EBB3EBE00B50122 /* Main.storyboard in Resources */,
+				00D9B2A01EBC1F6500E43505 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +415,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03A54702879BF77BDC92D5CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2224B6E2448E9434268D1CA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slider/Pods-Slider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F89E2DEDAF6D065C0DFD9A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slider/Pods-Slider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0057D30E1EBB3EBE00B50122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0057D31D1EBB3EBE00B50122 /* ViewController.m in Sources */,
+				00D9B27B1EBC1B0F00E43505 /* SPSliderViewController.m in Sources */,
+				00D9B2881EBC1BE700E43505 /* UIView+SPAddition.m in Sources */,
 				0057D31A1EBB3EBE00B50122 /* AppDelegate.m in Sources */,
+				00D9B2821EBC1BB600E43505 /* UIColor+SPAddition.m in Sources */,
+				00D9B27C1EBC1B0F00E43505 /* SPSlideSegmentBarItem.m in Sources */,
+				00D9B29C1EBC1EA500E43505 /* SPMainTableViewCell.m in Sources */,
+				00D9B2A11EBC1F6500E43505 /* SPHttpManager.m in Sources */,
+				00D9B28F1EBC1CE300E43505 /* SPMainModel.m in Sources */,
+				00D9B2871EBC1BE700E43505 /* NSString+SPGetSize.m in Sources */,
+				00D9B2961EBC1DA800E43505 /* SPMainDetailViewController.m in Sources */,
+				00D9B28C1EBC1CA600E43505 /* SPModel.m in Sources */,
 				0057D3171EBB3EBE00B50122 /* main.m in Sources */,
+				00D9B2991EBC1E9700E43505 /* SPMainDetailModel.m in Sources */,
+				00D9B2701EBC1ADF00E43505 /* SPMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +628,12 @@
 		};
 		0057D3401EBB3EBF00B50122 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3985E8D5BB7115F0E55975 /* Pods-Slider.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SC7G3CDVF4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Slider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjtyl.Slider;
@@ -437,9 +643,12 @@
 		};
 		0057D3411EBB3EBF00B50122 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C155716E8E5DEE26048D98D /* Pods-Slider.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SC7G3CDVF4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Slider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjtyl.Slider;
@@ -516,6 +725,7 @@
 				0057D3411EBB3EBF00B50122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0057D3421EBB3EBF00B50122 /* Build configuration list for PBXNativeTarget "SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +734,7 @@
 				0057D3441EBB3EBF00B50122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0057D3451EBB3EBF00B50122 /* Build configuration list for PBXNativeTarget "SliderUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +743,7 @@
 				0057D3471EBB3EBF00B50122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

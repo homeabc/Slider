@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  Slider
+//
+//  Created by 洪福清 on 2017/5/5.
+//  Copyright © 2017年 BJTYL. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "UIColor+SPAddition.h"
+#import "NSString+SPGetSize.h"
+#import "UIView+SPAddition.h"
+#import "Masonry.h"
+#import "JSONModel.h"
+
+
+
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+#define SP_SCREEN_HEIGHT ([[UIScreen mainScreen]bounds].size.height)
+
+
+#define SP_SCREEN_WIDTH ([[UIScreen mainScreen]bounds].size.width)
+
+
+#define SPColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+#endif /* PrefixHeader_pch */
